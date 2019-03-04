@@ -1,0 +1,6 @@
+run tests: vendor/bin/phpunit
+generate dummps: composer dump-autoload
+serve app: php artisan serve
+run migration: php artisan migrate
+run migration: php artisan migrate:refresh
+run seed: php artisan db:seed
